@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
  */
 public class FacebookHome extends commonAPI {
 
-    @FindBy(how= How.XPATH,using = ".//*[@id='email']")
+    @FindBy(how = How.XPATH,using = ".//*[@id='email']")
     public static WebElement emailBox;
     @FindBy(how = How.XPATH,using = ".//*[@id='pass']")
     public static WebElement passwordBox;
@@ -23,40 +23,41 @@ public class FacebookHome extends commonAPI {
         passwordBox.sendKeys(password);
         loginBtn.click();
     }
-    @FindBy(how = How.XPATH,using = ".//*[@id='u_0_f']")
-    public static WebElement FNameBox;
-    @FindBy(how = How.XPATH,using = ".//*[@id='u_0_h']")
-    public static WebElement LNameBox;
-    @FindBy(how = How.XPATH,using = ".//*[@id='u_0_k']")
-    public static WebElement emailPhoneBox;
-    @FindBy(how = How.XPATH,using = ".//*[@id='u_0_n']")
+
+    @FindBy(how = How.NAME,using = "firstname")
+    public static WebElement firstname;
+    @FindBy(how = How.NAME,using = "lastname")
+    public static WebElement lastname;
+    @FindBy(how = How.NAME,using = "reg_email__")
+    public static WebElement emailOrPhone;
+    @FindBy(how = How.NAME,using = "reg_email_confirmation__")
     public static WebElement confirmEmail;
-    @FindBy(how = How.XPATH,using = ".//*[@id='u_0_r']")
-    public static WebElement passBox;
-    @FindBy(how = How.XPATH,using = ".//*[@id='month']")
+    @FindBy(how = How.NAME,using = "reg_passwd__")
+    public static WebElement password;
+    @FindBy(how = How.ID,using = "month")
     public static WebElement monthOfBirth;
-    @FindBy(how = How.XPATH,using = ".//*[@id='day']")
+    @FindBy(how = How.ID,using = "day")
     public static WebElement dayOfBirth;
-    @FindBy(how = How.XPATH,using = ".//*[@id='year']")
+    @FindBy(how = How.ID,using = "year")
     public static WebElement yearOfBirth;
     @FindBy(how = How.XPATH,using = ".//*[@id='u_0_6']")
-    public static WebElement femaleCheckBtn;
-    @FindBy(how = How.XPATH,using = " .//*[@id='u_0_x']")
+    public static WebElement femaleCheckbox;
+    @FindBy(how = How.NAME,using = "websubmit")
     public static WebElement createAccountBtn;
 
-    public void createAccount(String firstName, String lastName, String email, String password){
-        FNameBox.sendKeys(firstName);
-        LNameBox.sendKeys(lastName);
-        emailPhoneBox.sendKeys(email);
+    public void createAccount(String FName, String LName, String email, String passwrd){
+        firstname.sendKeys(FName);
+        lastname.sendKeys(LName);
+        emailOrPhone.sendKeys(email);
         confirmEmail.sendKeys(email);
-        passBox.sendKeys(password);
+        password.sendKeys(passwrd);
         Select selectMonth = new Select(monthOfBirth);
         selectMonth.selectByVisibleText("Oct");
         Select selectDay = new Select(dayOfBirth);
-        selectMonth.selectByVisibleText("10");
+        selectDay.selectByVisibleText("10");
         Select selectYear = new Select(yearOfBirth);
-        selectMonth.selectByVisibleText("1970");
-        femaleCheckBtn.click();
+        selectYear.selectByVisibleText("1970");
+        femaleCheckbox.click();
         createAccountBtn.click();
     }
 }
