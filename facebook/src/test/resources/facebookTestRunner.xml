@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Facebook Automation Test" parallel="false">
+<suite name="Facebook Automation Test" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
-    <parameter name="os_version" value="Sierra"/>
+    <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="53.0"/>
     <parameter name="url" value="https://www.facebook.com/"/>
