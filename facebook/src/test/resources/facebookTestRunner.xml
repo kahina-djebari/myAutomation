@@ -3,7 +3,7 @@
 
 <suite name="Facebook Automation Test" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>

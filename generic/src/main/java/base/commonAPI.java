@@ -19,10 +19,10 @@ import java.util.concurrent.TimeUnit;
 public class commonAPI {
 
     public static WebDriver driver = null;
-    private String saucelabs_username = "";
-    private String browserstack_username = "";
-    private String saucelabs_accesskey = "";
-    private String browserstack_accesskey = "";
+    private String saucelabs_username = "ninadjebari";
+    private String browserstack_username = "kdjebari1";
+    private String saucelabs_accesskey = "c020bb68-ab4f-40e8-a95d-5bdd9d945cbf";
+    private String browserstack_accesskey = "Hfq87qUG7MHf8wakph7G";
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(boolean useCloudEnv, String cloudEnvName, String os, String os_version,

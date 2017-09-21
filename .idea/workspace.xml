@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8387eab-b10a-41ab-b7d4-2609fb534d0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebook/src/main/java/page/FacebookHome.java" afterPath="$PROJECT_DIR$/facebook/src/main/java/page/FacebookHome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml" afterPath="$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java" afterPath="$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="facebookTestRunner.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="facebookTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="336">
+              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookHome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FacebookHome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/facebook/src/main/java/page/FacebookHome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -64,11 +65,12 @@
       <file leaf-file-name="commonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
-                <element signature="e#3889#3890#0" expanded="false" />
-                <element signature="e#3919#3920#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3965#3966#0" expanded="true" />
+                <element signature="e#3995#3996#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,9 +101,9 @@
         <option value="$PROJECT_DIR$/facebook/pom.xml" />
         <option value="$PROJECT_DIR$/facebook/src/test/java/TestFacebookHome/TestLogin.java" />
         <option value="$PROJECT_DIR$/facebook/src/test/java/TestFacebookHome/TestCreateAccount.java" />
+        <option value="$PROJECT_DIR$/facebook/src/main/java/page/FacebookHome.java" />
         <option value="$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java" />
         <option value="$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml" />
-        <option value="$PROJECT_DIR$/facebook/src/main/java/page/FacebookHome.java" />
       </list>
     </option>
   </component>
@@ -908,14 +910,11 @@
       <updated>1505222548693</updated>
       <workItem from="1505222565688" duration="15497000" />
       <workItem from="1505253463557" duration="4489000" />
-      <workItem from="1506024809651" duration="1720000" />
+      <workItem from="1506024809651" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.12 at 19h 01m 13s.xml">
-      <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.21 at 17h 17m 04s.xml">
       <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -937,18 +936,22 @@
     <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.21 at 17h 33m 51s.xml">
       <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount_testCreateAccount - 2017.09.12 at 17h 09m 48s.xml">
-      <configuration name="TestCreateAccount.testCreateAccount" configurationId="TestNG" />
+    <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.21 at 17h 39m 32s.xml">
+      <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCreateAccount_testCreateAccount - 2017.09.12 at 17h 11m 02s.xml">
-      <configuration name="TestCreateAccount.testCreateAccount" configurationId="TestNG" />
+    <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.21 at 17h 39m 58s.xml">
+      <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Kahina_IdeaProjects_myAutomation_facebook_src_test_resources_facebookTestRunner_xml - 2017.09.21 at 17h 41m 23s.xml">
+      <configuration name="C:/Users/Kahina/IdeaProjects/myAutomation/facebook/src/test/resources/facebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21706000" />
+    <option name="totallyTimeSpent" value="22305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -960,13 +963,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11546499" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17233808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2129528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19174504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19174504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1020,8 +1023,9 @@
         <state relative-caret-position="1533">
           <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
-            <element signature="e#3889#3890#0" expanded="false" />
-            <element signature="e#3919#3920#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#3995#3996#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1050,17 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="e#3889#3890#0" expanded="false" />
-            <element signature="e#3919#3920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facebook/src/test/java/TestFacebookHome/TestCreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1068,14 +1061,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,6 +1076,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/base/commonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#3995#3996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/src/test/resources/facebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding />
         </state>
       </provider>
